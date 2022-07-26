@@ -1,0 +1,129 @@
+@charset "ISO-8859-1";
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+input.btn{
+	background-color:grey;
+	color:white;
+	width:100px;
+	padding:10px 20px;
+	font-family:verdana;
+	font-size:16px;
+	margin:4px;
+	cursor:pointer;
+
+	border-radius:4px;
+	border:none;
+}
+
+input.btn:hover{
+	background-color:black;
+}
+
+
+
+
+.wrapperf{
+	max-width:500px;
+	width:100%;
+	background:white;
+	margin:20px auto;
+	box-shadow:1px 1px 20px rgb(255,215,0);
+	padding:30px;
+	border-radius:10px;
+}
+
+.wrapperf .titlef{
+	font-size:25px;
+	font-weight:700;
+	margin-bottom:25px;
+	color:#3399cc;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.wrapperf .formf{
+	width:100%;
+}
+
+.wrapperf .formf .inputs{
+	margin-bottom:15px;
+
+	align-items:center;
+}
+
+.wrapperf .formf .inputs lable{
+   width: 200px;
+   color: #454545;
+   margin-right: 10px;
+  font-size: 17px;
+}
+
+.wrapperf .formf .inputs .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.wrapperf .formf .inputs.textarea{
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.wrapperf .formf .inputs.f,
+.wrapperf .formf .inputs .textarea:focus{
+  border: 1px solid #933952;
+  padding:5px;
+  border-radius:10px;
+  text-decoration:none;
+}
+
+.wrapperf .formf .inputs .textarea{
+  width: 97.5%;
+  padding:5px;
+  height: 125px;
+  resize: none;
+  align-items:center;
+}
+
+
+.wrapperf .formf .inputs .btn{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px;
+  font-family:sans-serif;
+  font-weight:bold;
+  border: 2px solid #555555;
+  background:  #933952;
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+  border-radius: 3px;
+  
+}
+
+.formf input[type="text"], input[type="age"],input[type="password"],input[type="email"],input[type="phone"],.textarea{
+
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    color: black;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
